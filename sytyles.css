@@ -1,0 +1,358 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(Images/images.jpeg);
+    background-size: cover;
+    flex-direction: column;
+    height: 600px;
+}
+
+.cover-image__nav {
+    width: 90vw;
+    align-self: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+
+}
+
+.navigator {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30vw;
+    align-items: center;
+    color: white;
+}
+
+.custom {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.custom__icon{
+    height: 20px;
+    padding-right: 20px;
+}
+
+.custom__logo{
+    height: 80px;
+}
+
+.empty {
+    border: 0.5px solid  rgba(51, 51, 51, 0.415);
+    width: 800px;
+    position: absolute;
+    left: 200px;
+    top: 80px;
+}
+
+.title-header {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: white;
+    line-height: 40px;
+    font-family: serif;
+    
+}
+
+.title-header_tu {
+    
+    font-size: 48px;
+
+}
+.title-header_vehi{
+    font-size: 10px;
+    font-family: 'Crimson Pro', serif;
+}
+
+.button-descubre {
+    width: 250px;
+    height: 30px;
+    font-size: 10px;
+    color: white;
+    background-color: rgb(60, 119, 247);
+    box-shadow: none;
+    border: none;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 90%;
+    margin: 180px auto 20px auto;
+}
+
+.main-bloque1 {
+    font-family: 'Cabin', sans-serif;
+    align-self: center;
+    margin: auto;
+    padding-left: 100px;
+    width: auto;
+
+}
+
+.main-bloque1__series{
+    font-size: 15px;
+    color: rgba(51, 51, 51, 0.415);
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.main-bloque1__ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(51, 51, 51, 0.415);
+    align-items: center;
+    width: 90%;
+    justify-content: space-evenly;
+
+    
+}
+
+.cabrio {
+    font-size: 30px;
+    color: black;
+}
+
+.main-bloque1__empty{
+    display: flex;
+    align-items: end;
+    width: 90%
+}
+
+.empty2-1 {
+    border: 3px solid  rgb(22, 69, 210);
+    width: 12%;
+    position: relative;
+    top: 10px;
+
+}
+
+.empty2-2 {
+    border: 0.5px solid  rgba(51, 51, 51, 0.415);
+    width: 870px;
+    position: relative;
+    top: 10px;
+}
+
+.main-bloque1-models {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+    gap: 50px;
+    list-style: none;
+    width: 90%;
+}
+
+.main-bloque1-models-car {
+    width: 180px;
+}
+
+.main-bloque1-models__h3 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+}
+
+.main-bloque1-models__p{
+    font-family: 'Cabin', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color:rgba(51, 51, 51, 0.415);
+    margin-bottom: 10px;
+}
+
+.main-bloque1-models__li{
+    font-family: 'Cabin', sans-serif;
+    font-size: 12px;
+    padding-top: 10px;
+    font-weight: 700;
+}
+
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px auto;
+    width: 90%;
+    
+}
+
+.article-notes {
+    width: 24%;
+}
+
+.article-notes__div {
+    padding: 10px 10px 10px 10px;
+    border: 1.5px solid;
+    border-color: rgba(99, 99, 99, 0.524);
+    height: 270px;
+}
+
+.img {
+    width: 100%;
+}
+
+.article-notes__h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.article-notes__p1{
+    font-family: 'cabin', sans-serif;
+    color:rgba(51, 51, 51, 0.415);
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+
+.article-notes__p2{
+    font-family: 'cabin', sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.youtube {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 90%;
+    gap: 20px;
+}
+
+.youtube-veh {
+    padding: 10px 10px 10px 10px;
+    border: 1.5px solid;
+    border-color: rgba(99, 99, 99, 0.524);
+
+}
+
+.youtube-you {
+    padding: 10px 10px 25px 10px;
+    border: 1.5px solid;
+    border-color: rgba(99, 99, 99, 0.524);
+
+}
+
+.youtube-img{
+    height: 280px;
+    width: 500px;
+}
+
+.youtube-h3 {
+    padding-top: 5px;
+    font-family: 'cabin', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+
+.youtube-p{
+    font-family: 'cabin', sans-serif;
+    font-size: 12px;
+    font-weight: 900px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 180px;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(126, 126, 126);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-car {
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 120px;
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.size {
+    height: 50px;
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+.footer {
+    height: 370px;
+    background-color: rgba(213, 213, 213, 0.4);
+    width: 100%;
+}
+
+
+.casi-footer {
+    height: 100px;
+}
+
+.listados {
+    width: 90%;
+    margin-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.listados_ind_cont {
+    font-size: 16px;
+}
+
+.listados_li {
+    list-style: none;
+}
+
+.linea {
+    height: 50px;
+    width: 70%;
+    margin: 20px auto;
+    border-left-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom: 2px solid;
+    border-color: rgba(85, 85, 85, 0.461); 
+
+}
+
+.footer-extra {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 12px;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: rgb(27, 89, 188);
+}
